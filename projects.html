@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Remote sensing and geology projects by Athanasios Klidaras: an IDL spectral analysis pipeline, Perseverance Mastcam-Z, Venus volcanism and structural mapping.">
+  <title>Projects | Athanasios Klidaras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="experience.html">Experience &amp; Skills</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="outreach.html">Blogs &amp; Outreach</a>
+        <a href="visualization.html">Figures &amp; Infographics</a>
+        <a href="resume.html">Resume</a>
+      </nav>
+    </div>
+  </header>
+  <div class="layout">
+    <aside class="profile" aria-label="Profile and contact links">
+      <p class="profile-name">Athanasios<br>Klidaras</p>
+      <p class="profile-role"><span>Geologist</span> <span>Planetary science PhD candidate</span></p>
+      <p class="profile-location"><span>Purdue University</span> <span>West Lafayette, Indiana</span></p>
+      <ul class="profile-links">
+        <li><a href="mailto:aklidara@purdue.edu">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/athanasios-klidaras-46b4a9178/">LinkedIn</a></li>
+        <li><a href="https://github.com/athanasiosklidaras">GitHub</a></li>
+        <li><a href="https://orcid.org/0009-0001-7231-8443">ORCID</a></li>
+        <li><a href="https://scholar.google.com/citations?user=_c2ViioAAAAJ">Google Scholar</a></li>
+      </ul>
+    </aside>
+    <main id="main" tabindex="-1">
+
+      <h1 class="page-title">Projects</h1>
+      <article class="project-detail" id="mars-spectral-analysis">
+        <h2>Mars compositional clay stratigraphies: spectral analysis (IDL/Python)</h2>
+        <p class="meta">PhD research · Purdue University · 2022–present</p>
+        <p>I developed a spectral analysis pipeline for the first two chapters of my PhD, investigating clay deposits and weathering on ancient Mars using CRISM hyperspectral observations.</p>
+        <ul>
+          <li>Maps clay absorption-band centers and depths, detects clay-bearing pixels and classifies clay phases, calculates spectral parameters, extracts spectra from automated Regions of Interest.</li>
+          <li>Focused on the mapping and validation of kaolinite, smectites, iron oxides, and acid sulfates.</li>
+          <li>First-author publication in Geology, follow-up spectral database paper currently in review.</li>
+        </ul>
+        <p class="tools">IDL · Python · ENVI · CRISM · Spectral parameter mapping</p>
+        <div class="project-links">
+          <a href="https://github.com/athanasiosklidaras/mars-clay-stratigraphy-idl-spectral-analysis">Code on GitHub</a>
+          <a href="https://doi.org/10.17632/s3xj33wfb4.1">Dataset on Mendeley Data</a>
+          <a href="https://doi.org/10.1130/G52988.1">Related Geology paper</a>
+        </div>
+        <figure class="project-image">
+          <a href="assets/projects/phyllosilicate_phase_map.png"><img src="assets/projects/phyllosilicate_phase_map.png" alt="CRISM image FRT00004eca alongside a color-coded phyllosilicate phase map derived from spectral band centers." loading="lazy" decoding="async" width="2915" height="1117"></a>
+          <figcaption>Example of phyllosilicate map derived from smectite/kaolin band centers in continuum-removed CRISM hyperspectral data.</figcaption>
+        </figure>
+        <figure class="project-image">
+          <a href="assets/projects/LPSC_2026.png"><img src="assets/projects/LPSC_2026.png" alt="Spectral parameter plot comparing alteration mineral reference spectra with Mars spectral data from Terra Cimmeria-Sirenum." loading="lazy" decoding="async" width="2572" height="1437"></a>
+          <figcaption>Bespoke spectral parameter space employed to discriminate kaolinite and halloysite from other Al/Si-rich alteration phases. Mars spectral data is overlain, revealing kaolin signatures.</figcaption>
+        </figure>
+      </article>
+      <article class="project-detail" id="perseverance">
+        <h2>Perseverance rover: Mastcam-Z</h2>
+        <p class="meta">Student collaborator · 2022–present</p>
+        <p>I co-lead the Geologic Context and Multispectral working groups and develop science campaigns for the Perseverance rover. I've delivered more than 70 presentations to the mission science team and am trained in Mastcam-Z downlink and uplink operations.</p>
+        <p>My multispectral analyses of igneous and sedimentary materials in Jezero crater focus on mineral composition, fluvial deposits and aqueous alteration.</p>
+        <p class="tools">Multispectral imaging · Mineral identification · Geological interpretation</p>
+        <div class="project-links"><a href="outreach.html">Perseverance blog posts</a></div>
+        <figure class="project-image">
+          <a href="assets/projects/perseverance-nili-planum.png"><img src="assets/projects/perseverance-nili-planum.png" alt="Panoramic view across the rocky terrain and distant ridges of Nili Planum on Mars." loading="lazy" decoding="async" width="4539" height="1428"></a>
+          <figcaption>Panoramic image I requested to be captured by the Mastcam-Z instrument, showing Nili Planum on Mars. Credit: NASA/JPL-Caltech/ASU/MSSS. More information in accompanying <a href="https://www.jpl.nasa.gov/news/nasas-perseverance-mars-rover-ready-to-roll-for-miles-in-years-ahead/">JPL press release</a>.</figcaption>
+        </figure>
+      </article>
+      <article class="project-detail" id="venus-mapping">
+        <h2>Volcanic and tectonic mapping on Venus</h2>
+        <p class="meta">MSci research · Imperial College London · 2021–2022</p>
+        <p>Mapped volcanic and tectonic features in Atla Regio using Synthetic Aperture Radar (SAR) to investigate the evolution of Ozza and Maat Montes. This work formed my master's thesis and contributed to a study of plume volcanism on Venus.</p>
+        <p class="tools">Remote geological mapping · Volcanology · Structural interpretation</p>
+        <div class="project-links"><a href="https://doi.org/10.1029/2024JE008815">Related JGR: Planets paper</a></div>
+        <figure class="project-image">
+          <a href="assets/projects/Atla_Regio_map.jpg"><img src="assets/projects/Atla_Regio_map.jpg" alt="Geologic map of Atla Regio on Venus." loading="lazy" decoding="async" width="2128" height="1462"></a>
+          <figcaption>Geologic map of Atla Regio on Venus (Figure 5, Mason et al., 2025).</figcaption>
+        </figure>
+      </article>
+      <article class="project-detail" id="kalpin-mapping">
+        <h2>Eastern Kalpin fold-and-thrust belt</h2>
+        <p class="meta">Independent mapping project · Imperial College London</p>
+        <p>A remote mapping study employing Google Earth, WorldView, and spectral data from Landsat and ASTER to unravel the tectonostratigraphic evolution of the eastern Kalpin fold-and-thrust belt in Xinjiang, China. Awarded the E. Ambrosiadou Prize for top academic performance in the geological mapping project.</p>
+        <p class="tools">Geological mapping · Stratigraphy · Structural geology</p>
+        <p class="section-link"><a href="https://youtu.be/MRYRGHMKjsY?si=AzY2D9UN4K-d47lg&amp;t=41">Youtube video</a> showcasing findings from my mapping project, narrated by Dr. Valentin Laurent of Imperial College RSM.</p>
+        <figure class="project-image">
+          <a href="assets/projects/Structural_evolution_Kalpin_China.png"><img src="assets/projects/Structural_evolution_Kalpin_China.png" alt="Block model depicting Cenozoic tectonic deformation around Kalpin in the northern Tarim Basin, Xinjiang, China." loading="lazy" decoding="async" width="2042" height="2030"></a>
+          <figcaption>Block model depicting Cenozoic tectonic deformation around Kalpin, a city in the northern Tarim Basin in Xinjiang, China.</figcaption>
+        </figure>
+      </article>
+      <section class="page-section" aria-labelledby="papers-title">
+        <h2 id="papers-title">Related publications</h2>
+        <ul class="publication-links">
+          <li><cite><a href="https://doi.org/10.1130/G52988.1">Topography and mineralogy of clay deposits signify an epoch of warm and humid climate on early Mars</a></cite><small>Klidaras et al. · Geology · 2025</small></li>
+          <li><cite><a href="https://doi.org/10.1029/2024JE008815">Evolution of Plume Volcanism at Atla Regio, Venus</a></cite><small>Mason, Klidaras et al. · JGR: Planets · 2025</small></li>
+        </ul>
+        <p class="section-link">Publication lists: <a href="https://orcid.org/0009-0001-7231-8443">ORCID</a> · <a href="https://scholar.google.com/citations?user=_c2ViioAAAAJ">Google Scholar</a></p>
+      </section>
+      <footer class="site-footer">© Athanasios Klidaras</footer>
+    </main>
+  </div>
+</body>
+</html>
