@@ -48,6 +48,14 @@ main { min-width: 0; display: flex; flex-direction: column; min-height: calc(100
 .intro p { max-width: 690px; }
 .lead { font: normal 24px/1.5 var(--serif); margin-bottom: 22px; }
 .content-section { border-top: 1px solid var(--line); margin-top: 34px; padding-top: 32px; }
+.institution-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.institution { min-width: 0; margin: 0; padding: 18px 14px 16px; border: 1px solid var(--line); background: #fff; text-align: center; }
+.institution-logo-pair { min-height: 96px; display: flex; align-items: center; justify-content: center; gap: 14px; }
+.institution-logo-pair img { display: block; min-width: 0; max-width: 100%; max-height: 91px; object-fit: contain; }
+.institution-imperial-logo { width: 154px; }
+.institution-rsm-logo, .institution-nasa-logo { width: 78px; }
+.institution-purdue-logo { width: 133px; }
+.institution figcaption { margin-top: 13px; color: var(--muted); font-size: 13px; line-height: 1.5; }
 .page-title { margin-bottom: 30px; }
 .page-section { border-top: 1px solid var(--line); padding-top: 28px; margin-bottom: 32px; }
 .skill-list { margin: 0; }
@@ -137,6 +145,7 @@ main { min-width: 0; display: flex; flex-direction: column; min-height: calc(100
   .page-section { margin-bottom: 28px; }
   .post-list li { grid-template-columns: minmax(0, 1fr); gap: 5px; }
   .figure-grid { grid-template-columns: minmax(0, 1fr); }
+  .institution-grid { grid-template-columns: minmax(0, 1fr); }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 @media print {
